@@ -6,10 +6,15 @@
 # Markov-Chain Sentence Generator
 
 This sentence generator uses markov chains to extract the probability of a particular word following a particular set of words.
+
 It requires massive amounts of data to actually generate something impressive.
+
 Otherwise it will just copy the input.
+
 It is still fun to play around with though.
+
 You can change `WORD_MATCH_COUNT`. More matched words will follow the input more strictly. Less matched words will seem more random.
+
 It's set to `2`, which makes it possible to still get something entertaining with a limited dataset.
 
 ## How to use
